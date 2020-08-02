@@ -1,0 +1,104 @@
+@import 'header'
+@import 'offer'
+@import 'collection'
+@import 'about'
+@import 'subscription'
+@import 'footer'
+@import 'shop' 
+@import 'popup' 
+@import 'media'   
+@import 'fancsy'   
+
+// @font-face
+//     font-family: "Futura PT Light"
+//     src: url(../fonts/FuturaPT-Light.ttf)
+//     font-family: "Futura PT Book"
+//     src: url(../fonts/FuturaPT-Book.ttf)
+
+@font-face 
+    font-family: 'Futura PT Light'
+    src: url('../fonts/FuturaPTLight.eot')
+    src: url('../fonts/FuturaPTLight.eot') format('embedded-opentype'),
+    url('../fonts/FuturaPTLight.woff') format('woff'),
+    url('../fonts/FuturaPTLight.ttf') format('truetype'),
+    url('../fonts/myriadpro-cond.svg#MyriadProCondensed') format('svg')
+
+
+*,
+*::after,
+*::before
+    box-sizing: border-box
+
+body
+    font-family: 'Raleway', sans-serif  
+    font-size: 16px
+    font-weight: 400
+    margin: 0
+
+h1, h2, h3, h4, h5, h6
+    margin: 0
+
+a
+    text-decoration: none
+
+p
+    margin: 0
+
+button
+    padding: 0
+
+.container
+    max-width: 1200px
+    margin: 0 auto
+    padding: 0 15px
+    width: 100%
+
+.defult__btn
+        border: 1px solid rgba(232,222,219, 0.9)
+        border-radius: 10px
+        padding: 10px 15px
+        letter-spacing: 1.5px
+        background-color: transparent
+        text-transform: uppercase
+        transition: all .3s
+        cursor: pointer
+        outline: none
+        &:hover
+            transform: translateY(-10%)
+            background-color: $color
+        & a
+            color: $color-black
+
+
+
+.shop__popup
+    background: #fff
+.fancybox-inner
+    flex-direction: column
+
+$color: #C59589
+
+// .shop__item-popup
+// 	top: 0
+// 	left: 0
+// 	position: fixed
+// 	width: 100%
+// 	height: 100vh
+// 	backdrop-filter: blur(2px)
+// 	display: none 
+// 	z-index: 1000 
+
+
+// .result  
+// 	position: absolute
+// 	left: 50%
+// 	top: 50% 
+// 	transform: translate(-50%, -50%)
+// 	padding: 25px 30px
+// 	box-sizing: border-box
+// 	background-color: $color
+// 	color: #fff
+// 	width: 85%
+ 
+
+

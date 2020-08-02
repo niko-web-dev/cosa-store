@@ -1,0 +1,320 @@
+$color: #C59589
+    
+@media screen and (max-width: 1024px)
+    .collection__item
+        width: 40%
+        margin-bottom: 40px
+    .collection__item-img
+        margin-left: auto
+        margin-right: auto
+    .about__text
+            font-size: 18px
+            & p
+                line-height: 31px
+        
+@media screen and (max-width: 960px)
+    .offer__inner h1
+        font-size: 35px
+    .offer__inner p
+        font-size: 26px
+    
+
+@media screen and (max-width: 830px)   
+    .header__nav
+        position: fixed
+        display: flex
+        flex-direction: column
+        justify-content: center
+        top: 0
+        right: 0
+        width: 40% 
+        height: 100vh 
+        overflow: hidden  
+        transform: translateX(100%) 
+        transition: 0.5s
+        padding-top: 65px
+        background: #E8DEDB 
+        z-index: 900
+        &-list
+            text-align: center
+            border: none
+            padding-right: 0
+        &-link
+            display: block 
+            border: none
+            margin-bottom: 30px
+        &-social 
+            display: block 
+    .shopping-cart
+        right: 60px
+
+    .menu_active
+        transform: translateX(0)   
+        -webkit-box-shadow: -20px 9px 25px -13px rgba(232,222,219,1)
+        -moz-box-shadow: -20px 9px 25px -13px rgba(232,222,219,1)
+        box-shadow: -20px 9px 25px -13px rgba(232,222,219,1)
+    .header__btn-menu
+        display: block 
+        right: 10px  
+        z-index: 1000
+        position: absolute
+    .offer__inner
+        padding-top: 150px
+    .offer__inner h1
+        font-size: 30px
+    .offer__inner p
+        font-size: 21px
+        margin-bottom: 90px
+    .collection__item-img
+        width: 250px
+        height: 250px
+    .subscription__inner
+        flex-direction: column
+        text-align: center
+    .subscription__text
+        text-align: start
+    .subscription__form
+        justify-content: space-around
+    .subscription__input
+        max-width: 120px
+    .footer-nav
+        space-between
+    .footer-nav__link
+        margin: 5px 18px
+    .footer__bottom
+        flex-direction: column
+        text-align: center
+        &-text,
+        &-contact
+            margin-bottom: 20px
+    .pupup
+        padding: 15px 15px
+    .popup__title
+        font-size: 18px
+    .popup__text
+        font-size: 16px
+        line-height: 20px
+
+@media screen and (max-width: 740px)
+    .container
+        padding: 0 25px
+    .offer__inner h1 
+        font-size: 26px
+    .offer__inner p
+        font-size: 18px
+        margin-bottom: 60px
+    .about__content
+        flex-direction: column
+    .about__text
+        width: 80%
+    .about__photo
+        margin-bottom: 30px 
+
+    .about__title-mob
+        display: block
+    .about__inner h3
+        padding: 60px 0 0 0
+    .about__title-dest
+        display: none
+
+@media screen and (max-width: 620px)
+    .header__discount
+        font-size: 15px
+    .collection__item-img 
+        width: 210px
+        height: 210px
+    .subscription__form
+        flex-direction: column
+    .collection__item
+        font-size: 15px
+        flex-direction: column
+    .subscription__input
+        max-width: 100%
+    .footer-nav__link,
+    .footer__bottom-text
+        font-size: 17px
+    .footer__bottom-social-in,
+    .footer__bottom-social-fb,
+    .footer__bottom-social-pint
+        &::before
+            font-size: 33px
+@media screen and (max-width: 580px)
+    .header__img img 
+        width: 150px
+    .header__logo-img 
+        width: 140px
+    .offer
+        padding-bottom: 60px
+    .offer__inner
+        padding-top: 80px
+    .offer__inner h1 
+        font-size: 20px 
+    .offer__inner p
+        font-size: 14px
+        margin-bottom: 35px
+    .offer__inner .offer__btn
+        margin-left: 0
+        padding: 5px 30px
+    .collection__title
+        font-size: 33px
+    .defult__btn
+        font-size: 11px
+    .collection__items
+        flex-direction: column
+    .collection__item
+        width: 100%
+        margin-bottom: 30px
+    .collection__item-img 
+        width: 278px
+        height: 278px
+    .subscription
+        padding: 30px 0
+    .subscription__text-title
+        font-size: 18px
+    .subscription__text
+        text-align: start
+        font-size: 16px 
+    .imglist-wrap
+        flex-direction: column
+    .imglist
+        display: flex
+        margin-left: auto
+        margin-right: auto
+        max-width: 320px
+        &-min
+            margin-left: 10px
+            margin-right: 15px
+        
+    
+    .imglist-content
+        margin-left: 0
+        margin-top: 20px
+    .shop__popup
+        padding: 35px 10px 10px 10px
+    .img-popup
+        width: 239px
+        height: 239px
+    .img-popup-min
+        width: 77px
+        height: 77px
+    .imglist-content-title,
+    .imglist-content-price,
+    .imglist-content-subtitle
+        font-size: 16px
+        margin-bottom: 5px
+    .imglist-content-text
+        margin-bottom: 5px
+        font-size: 13px
+    .imglist-content-subtitle
+        font-size: 14px
+    .imglist-content-title,
+    .imglist-content-price
+        text-align: center
+    .popup__btn
+        display: inline-block
+    
+
+@media screen and (max-width: 500px)
+    .header__img
+        display: none
+    .offer
+        padding-bottom: 40px
+    .offer__inner
+        padding-top: 60px
+    .offer__inner h1 
+        font-size: 17px 
+    .offer__inner p
+        font-size: 11px
+        margin-bottom: 20px
+        line-height: 50px
+    .about__photo img
+        width: 290px
+    .about__text 
+        font-size: 16px
+        & p
+            line-height: 30px
+            margin-bottom: 40px
+    .subscription__text-title
+        font-size: 14px
+        margin-bottom: 10px
+    .subscription span
+        font-size: 17px
+    .subscription__text
+        font-size: 14px
+    .footer-nav__link 
+        margin: 5px 10px
+        font-size: 15px
+    .footer__bottom
+        flex-direction: column
+    .footer__bottom-text
+        margin-bottom: 30px
+    .footer__bottom-social
+        display: flex
+        justify-content: space-evenly
+        width: 100%
+        & a
+            display: block
+            margin: 0
+    .popup
+        padding: 15px 
+        max-width: 400px
+    .popup__title
+        font-size: 13px
+    .popup__text
+        font-size: 10px
+        line-height: 18px 
+    .shop__inner
+        flex-direction: column
+        &-categories
+            flex-direction: row
+            flex-wrap: wrap
+            margin-bottom: 50px
+            margin-left: auto
+            margin-right: auto
+            & button
+                font-size: 18px
+    .footer__bottom-social-pint
+        margin-right: 0
+    .footer__bottom-social-in,
+    .footer__bottom-social-fb,
+    .footer__bottom-social-pint
+        &::before
+            font-size: 24px
+
+	
+
+@media screen and (max-width: 420px)
+    .header__discount
+        font-size: 11px
+    .header__logo-img 
+        width: 100px
+    .header__btn-menu
+        font-size: 26px
+        right: 0
+    .offer__inner 
+        padding-top: 50px
+    .offer__inner h1 
+        font-size: 14px
+    .offer__inner p 
+        font-size: 9px
+        line-height: 20px
+    .collection 
+        padding: 60px 0
+    .collection__title 
+        font-size: 22px
+        margin-bottom: 30px
+    .defult__btn
+        padding: 5px 10px
+        font-size: 10px
+    .footer-nav__link 
+        margin: 5px 5px
+        font-size: 11px
+    
+@media screen and (max-width: 350px)
+    .collection__title 
+        font-size: 18px
+        margin-bottom: 20px
+    .popup
+        padding: 15px 
+        max-width: 300px
+    

@@ -1,0 +1,88 @@
+$color: #C59589
+
+
+.header
+    &__discount
+        background-color: rgba(232,222,219, 1)
+        font-size: 18px
+        text-align: center
+        padding: 8px 0
+        color: #fff
+        width: 100%
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-between
+    &__inner
+        display: flex
+        justify-content: space-between
+        align-items: center
+        padding: 10px 0
+        position: relative
+    &__img
+        display: flex
+        position: absolute
+        left: 0
+        & img
+            width: 190px
+            height: auto
+        & div
+            color: $color
+            font-family: "Futura PT Book"
+            line-height: 20px
+    &__logo
+        margin-left: auto
+        margin-right: auto
+    &__logo-img
+        width: 160px
+    &__btn-menu
+        display: none
+        font-size: 33px
+        color: $color
+        cursor: pointer
+    &__nav
+        position: absolute
+        right: 0
+        &-list
+            padding-right: 30px
+        &-social
+            text-align: center
+            margin-top: 50px
+    &__nav-link
+        font-size: 18px
+        letter-spacing: 1.5px
+        color: #D6C1B2
+        line-height: 36px
+        border: 1px solid transparent
+        border-radius: 7px
+        padding: 8px 10px
+        transition: all .3s
+        &:hover
+            border-color: $color
+            color: $color
+    &__nav-social
+        display: none
+        
+.menu_active
+    transform: translateX(0)
+
+.shopping-cart
+    position: absolute
+    right: 0
+    top: 50%
+    transform: translateY(-50%)
+
+.icon-shopping-cart:before 
+    content: "\e905"
+    font-family: 'icomoon' !important
+    font-size: 35px
+    color: $color
+
+.counter-card
+    position: absolute
+    right: 13px
+    top: 4px
+    font-size: 14px
+
+
+
+

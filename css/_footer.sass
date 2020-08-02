@@ -1,0 +1,65 @@
+$color: #C59589
+$color-black: #595959
+
+
+.footer-nav
+    display: flex
+    justify-content: center
+    margin-bottom: 30px
+    &__link
+        margin: 5px 30px
+        color: #D6C1B2
+        font-size: 22px
+        font-family: "Futura PT Light"
+        border: 1px solid transparent
+        cursor: pointer
+        transition: all .3s
+        &:hover
+            border-bottom: 1px solid #D6C1B2
+            color: $color
+            transform: translateY(-10%)
+
+.footer__bottom
+    display: flex
+    justify-content: space-between
+    align-items: center
+    color: $color-black
+    padding: 30px 0
+    font-family: "Futura PT Light"
+    display: flex
+    justify-content: space-between
+    &-text
+        font-size: 20px
+        line-height: 35px
+    &-contact
+        text-align: center
+        color: $color-black
+        line-height: 35px
+        text-align: center
+    &-contact a
+        color: $color-black
+        
+
+
+.footer__bottom-social-in,
+.footer__bottom-social-fb,
+.footer__bottom-social-pint  
+    margin-right: 10px
+    &::before
+        font-family: 'icomoon'
+        color: #000
+        font-size: 38px
+
+.footer__bottom-social-in
+    &::before
+        content: "\e901"
+
+.footer__bottom-social-fb
+    &::before
+        content: "\e900"
+        
+
+.footer__bottom-social-pint
+    &::before
+        content: "\e904"
+
